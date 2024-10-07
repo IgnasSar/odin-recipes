@@ -1,0 +1,22 @@
+.square-div{
+    border: solid black 1px;
+    box-sizing: border-box;
+}
+#mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 2px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#resetButton{
+    background-color: rgb(178, 226, 47);
+    border-radius: 15px;
+    padding: 15px 30px 15px 30px;
+    font-size: large;
+    margin-bottom: 50px;
+}
